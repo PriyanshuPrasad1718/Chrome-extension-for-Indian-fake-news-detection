@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Indian Fake News Detection Extension",
+    "description": "A Chrome extension that train on Indian news to predicts whether news articles are likely to be Fake or Not",
+    "version": "1.0.0",
+    "icons": {
+      "16": "img/image1.jpeg",
+      "48": "img/image1.jpeg",
+      "128": "img/image2.jpeg"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "http://127.0.0.1:5000/"
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["popup.js"],
+        "matches": ["http://*/*", "https://*/*"]
+      }
+    ]
+  }
