@@ -17,6 +17,7 @@ The project compares two different machine learning models: a Decision Tree Clas
 
 **Decision Tree Classifier:**
 A simple, interpretable model that breaks down the data into smaller subsets and makes decisions based on the attributes of the articles.
+
 **LSTM (Long Short-Term Memory):**
 A type of recurrent neural network (RNN) ideal for sequential data, such as text, allowing the model to understand context and patterns over time for more accurate predictions.
 
